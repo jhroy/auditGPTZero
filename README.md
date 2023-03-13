@@ -159,4 +159,4 @@ Au mieux, on peut classer un groupe de textes en fonction de différents scores 
 
 * Enfin, tous les textes ont été soumis à GPTZero à l'aide du script [**triche.py**](triche.py)
 
-* Le corpus complet et les résultats fournis par GPTZero se trouve dans le fichier [**corpusComplet_avecURL.csv**](corpusComplet_avecURL.csv)
+* Le corpus complet, avec les résultats fournis par GPTZero, se trouve dans le fichier [**corpusComplet_avecURL.csv**](corpusComplet_avecURL.csv)
