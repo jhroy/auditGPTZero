@@ -56,7 +56,7 @@ J'ai ensuite soumis les textes de chacun de ces trois corpus à GPTZero. Dans se
 
 * *Perplexity* : Décrit par l'auteur de GPTZero comme un indice du caractère aléatoire d'un texte
 * `completely_generated_prob` : Décrit par l'auteur de GPTZero comme un indice *that specifies the probability the entire document was AI-generated*. Il recommande d'ailleurs de se servir surtout de cet indice&nbsp;: *using this score when deciding whether or not there is a significant use of AI in generating the text*.
-* `average_generated_prob` : GPTZero mesure également, pour chacune des phrases dans un textes, la probabilité qu'elle soit produite par un système d'IA. L'indice `average_generated_prob` fait la moyenne de ces indices pour toutes les phrases.
+* `average_generated_prob` : GPTZero mesure également, pour chacune des phrases dans un texte, la probabilité qu'elle soit produite par un système d'IA. L'indice `average_generated_prob` fait la moyenne de ces indices pour toutes les phrases.
 
 ## Résultats
 
