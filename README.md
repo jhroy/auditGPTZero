@@ -97,7 +97,7 @@ Les faux positifs (ou faux négatifs) sont les suivants:
 
 ### Textes français traduits en anglais
 
-GPTZero donne-t-il des résultats plus convaincants si on traduit des textes du français vers l'anglais? Si on répartit les résultats en quintiles en fontion du score de perplexité, il semble que oui.
+GPTZero donne-t-il des résultats plus convaincants si on traduit des textes du français vers l'anglais? Si on répartit les résultats obtenus pour le corpus des textes traduits en quintiles en fontion du score de perplexité, il semble que oui.
 
 | **Quintile (selon perplexité) :point_down: \\ Rédigé par :point_right:**       | **Journaliste** | **Moitié journaliste,<br>moitié GPT-3** | **GPT-3** | **_Total_** |
 |----------------|--------------:|-------------------------------:|------:|---------------:|
