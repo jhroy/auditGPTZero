@@ -145,7 +145,7 @@ J'ai réparti les textes des deux précédents corpus en fonction de cette varia
 
 Pour détecter si des textes en français ont été fabriqués à l'aide de ChatGPT ou de GPT-3, GPTZero n'est pas utile. Si on traduit ces textes en anglais, on améliore ses performances qui se rapprochent de ce qu'on obtient avec des textes rédigés directement en anglais. Mais on ne réussit jamais à être absolument certain qu'un texte a été généré par un système reposant sur l'IA.
 
-Au mieux, on peut classer un groupe de textes en fonction de différents scores fournis par GPTZero et s'intéresser aux premier quintile des textes obtenant les plus faibles scores de perplexité ou les plus grands scores de la variable `completely_generated_prob`. Il faut au préalable les traduire en anglais.
+Au mieux, on peut classer un groupe de textes en fonction de différents scores fournis par GPTZero et s'intéresser au premier quintile des textes obtenant les plus faibles scores de perplexité ou les plus grands scores de la variable `completely_generated_prob`. Il faut au préalable les traduire en anglais.
 
 ## Méthodologie (code et données)
 
