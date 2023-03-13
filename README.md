@@ -159,4 +159,4 @@ Au mieux, on peut classer un groupe de textes en fonction de différents scores 
 
 * Enfin, tous les textes ont été soumis à GPTZero à l'aide du script [**triche.py**](triche.py)
 
-* Le corpus complet, avec les résultats fournis par GPTZero, se trouve dans le fichier [**corpusComplet_avecURL.csv**](corpusComplet_avecURL.csv)
+* Le corpus complet, avec les résultats fournis par GPTZero, se trouve dans le fichier [**corpusComplet.csv**](corpusComplet.csv) (le texte complet des articles moissonnés a été raccourci aux 100 premiers caractères; le texte généré par GPT-3 a cependant été conservé entièrement; mon fichier de données est accessible [sur demande](mailto:roy.jean-hugues@uqam.ca)
