@@ -75,7 +75,7 @@ On voit que les scores du corpus de textes en français sont faméliques. GPTZer
 
 Cela dit, quand on classe les textes en français en fonction du score que leur a attribué GPTZero, les 18 textes qui ont obtenu les scores les plus élévés pour la variable `completely_generated_prob` ont été rédigés par GPT-3 en tout ou en partie.
 
-Quand on les classe **en fonction de la perplexité**, ce sont les 78 textes obtenant le score le plus faible qui ont été rédigés par GPT-3 en tout ou en partie. Cette variable semble donc meilleure pour détecter l'utilisation de l'IA générative. Je vais donc m'en servir pour séparer les 300 textes en cinq quintiles en fonction de cette variable&nbsp;:
+Quand on les classe **en fonction de la perplexité**, ce sont les 78 textes obtenant le score le plus faible qui ont été rédigés par GPT-3 en tout ou en partie. Cette variable semble donc meilleure pour détecter l'utilisation de l'IA générative. Je vais donc m'en servir pour séparer les 300 textes en cinq quintiles&nbsp;:
  * Le premier quintile des scores de perplexité les plus faibles sera constitué des 60 textes dont GPTZero estime qu'ils ont été très probalement été rédigé par une machine.
  * À l'autre extrême, le dernier quintile des scores de perplexité les plus élevés sera constitué des 60 textes dont GPTZero estime qu'ils ont été très probablement été rédigés par un être humain.
 
