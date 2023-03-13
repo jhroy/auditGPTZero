@@ -147,4 +147,16 @@ Pour détecter si des textes en français ont été fabriqués à l'aide de Chat
 
 Au mieux, on peut classer un groupe de textes en fonction de différents scores fournis par GPTZero et s'intéresser aux premier quintile des textes obtenant les plus faibles scores de perplexité ou les plus grands scores de la variable `completely_generated_prob`. Il faut au préalable les traduire en anglais.
 
-Le corpus complet et les résultats fournis par GPTZero se trouve dans le fichier [**corpusComplet_avecURL.csv**](corpusComplet_avecURL.csv)
+## Méthodologie (code et données)
+
+* Les articles ayant servi à cette expérience ont été moissonnés à l'aide de la bibliothèque python [BeautifulSoup](https://bit.ly/jhroybs4). Voici un exemple d'un script ayant permis de recueillir un échantillon des 300 textes les plus récents de la journaliste Jennifer Dowty à partir d'un API non-documenté du *Globe and Mail*: [**globe-dowty.py**](globe-dowty.py)
+
+* Pour chaque journaliste, 60 textes étaient aléatoirement sélectionnés&nbsp;: 20 conservés entièrement (rédigés par *journaliste*); 20 conservés partiellement (rédigés *moitié moitié*); 20 dont on ne conservait que le titre (rédigés par *GPT-3*). 
+
+* Les textes générés par GPT-3 l'ont été à l'aide du script [**redaction.py**](redaction.py) Dans ceux qui étaient rédigés *moitié moitié*, le début est rédigé par des journalistes et la partie se trouvant après le symnbole **`|`** est générée par GPT-3.
+
+* Les textes traduits du français vers l'anglais l'ont été grâce à ce script: [**trad.py**](trad.py)
+
+* Enfin, tous les textes ont été soumis à GPTZero à l'aide du script [**triche.py**](triche.py)
+
+* Le corpus complet et les résultats fournis par GPTZero se trouve dans le fichier [**corpusComplet_avecURL.csv**](corpusComplet_avecURL.csv)
